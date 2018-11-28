@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	
+</head>
+<body>
+	<div id="div">
+		
+	</div>
+	<div align="center">
+		<table>
+			<tr>
+				<th colspan="5" id="screen">
+					
+				</th>
+				
+			</tr>
+			<tr>
+				<td>
+					<button></button>
+					<!-- <input type="button" name="" value=""> -->
+				</td>
+				<td>
+					<button></button>
+					<!-- <input type="button" name="" value=""> -->
+				</td>
+				<td>
+					<button id="os" onclick="document.getElementById('screen').style.display='none'">OFF</button>
+					<!-- <input type="button" name="" value="OFF"> -->
+				</td>
+				<td colspan="2">
+					<button id="ac" onclick="document.getElementById('screen').style.display='items'">AC</button>
+					<!-- <input type="button"  value="AC"> -->
+				</td>
+				<!-- <td>
+					<input type="button" name="" value="">
+				</td> -->
+			</tr>
+			<tr>
+				<td>
+					<button></button>
+					<!-- <input type="button" name="" value=""> -->
+				</td>
+				<td>
+					<button></button>
+					<!-- <input type="button" name="" value=""> -->
+				</td>
+				<td>
+					<button></button>
+					<!-- <input type="button" name="" value=""> -->
+				</td>
+				<td>
+					<button></button>
+					<!-- <input type="button" name=""> -->
+				</td>
+				<td>
+					<button></button>
+					<!-- <input type="button" name=""> -->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button></button>
+					<!-- <input type="button" name="" value=""> -->
+				</td>
+				<td>
+					<button></button>
+					<!-- <input type="button" name="" value=""> -->
+				</td>
+				<td>
+					<button></button>
+					<!-- <input type="button" name="" value=""> -->
+				</td>
+				<td>
+					<button onclick="n('.')">.</button>
+					<!-- <input type="button" name="" value=""> -->
+				</td>
+				<td>
+					<button onclick="document.getElementById("screen").innerHTML = Math.PI;">&pi;</button>
+					<!-- <input type="button" name=""> -->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<!-- <input type="button" name="" value="%"> -->
+					<button>%</button>
+				</td>
+				<td>
+					<button onclick="one('/')">/</button>
+					<!-- <input type="button" name="" value="/"> -->
+				</td>
+				<td>
+					<button onclick="one('*')">x</button>
+					<!-- <input type="button" name="" value="*"> -->
+				</td>
+				<!-- <td>
+					<input type="button" name="" value="">
+				</td> -->
+				<td colspan ="2">
+					<button id="ce">CE</button>
+					<!-- <input type="button"  value="CE"> -->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="n(1)">1</button>
+					<!-- <input type="button"  name="" value="1"> -->
+				</td>
+				<td>
+					<button onclick="n(2)">2</button>
+					<!-- <input type="button" name="" value="2"> -->
+				</td>
+				<td>
+					<button onclick="n(3)">3</button>
+					<!-- <input type="button" name="" value="3"> -->
+				</td>
+				<td>
+					<button>Cos</button>
+					<!-- <input type="button" name="" value="Cos"> -->
+				</td>
+				<td>
+					<button>Cos<sup>-1</sup></button>
+					<!-- <input type="button" name="" value="Cos-"> -->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="n(4)">4</button>
+					<!-- <input type="button" name="" value="4"> -->
+				</td>
+				<td>
+					<button onclick="n(5)">5</button>
+					<!-- <input type="button" name="" value="5"> -->
+				</td>
+				<td>
+					<button onclick="n(6)">6</button>
+					<!-- <input type="button" name="" value="6"> -->
+				</td>
+				<td>
+					<button>Sin</button>
+					<!-- <input type="button" name="" value="Sin"> -->
+				</td>
+				<td>
+					<button>Sin<sup>-1</sup></button>
+					<!-- <input type="button" name="" value="Sin-"> -->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="n(7)">7</button>
+					<!-- <input type="button" name="" value="7"> -->
+				</td>
+				<td>
+					<button onclick="n(8)">8</button>
+					<!-- <input type="button" name="" value="8"> -->
+				</td>
+				<td>
+					<button onclick="n(9)">9</button>
+					<!-- <input type="button" name="" value="9"> -->
+				</td>
+				<td>
+					<button>Tan</button>
+					<!-- <input type="button" name="" value="Tan"> -->
+				</td>
+				<td>
+					<button>Tan<sup>-1</sup></button>
+					<!-- <input type="button" name="" value="Tan-"> -->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="one('-')">-</button>
+					<!-- <input type="button" name="" value="-"> -->
+				</td>
+				<td>
+					<button onclick="one('+')">+</button>
+					<!-- <input type="button" name="" value="+"> -->
+				</td>
+				<td>
+					<button onclick="n(0)">0</button>
+					<!-- <input type="button" name="" value="0"> -->
+				</td>
+				<td colspan="2">
+					<button id="equal">=</button>
+					<!-- <input type="button" value="="> -->
+				</td>
+				<!-- <td>
+					<input type="button" name="">
+				</td> -->
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="calculator.js"></script>
+
+</body>
+</html>

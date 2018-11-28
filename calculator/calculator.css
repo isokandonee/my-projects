@@ -1,0 +1,88 @@
+table
+{
+	border: 3px solid black;
+	border-radius: 10px;
+	align-content: center;
+	/*border-collapse: collapse;*/
+	text-align: center;
+	background-color: black;
+	/*padding-left: 5px;*/
+	width: 300px;
+	height: 600px;
+
+}
+#screen
+{
+ 	background-color: white;
+ 	border-radius: 4px;
+ 	width: 310px;
+ 	height: 65px;
+ 	font-family: lcd;
+ 	font-size: 20px;
+ 	font-color: black;
+ 	border:10px solid black; 
+ 	box-sizing: content-box;
+ 	/*display: all;*/
+}
+#screen:hover
+{
+	cursor: none;
+	color: black;
+}
+#ac
+{
+	width: 110px;
+	height: 50px;
+	background-color: tomato;
+	border-color: black;
+	border-radius: 4px;
+	border-collapse: collapse;
+	font-size: 30px;
+}
+#ac:hover
+{
+	cursor: pointer;
+	background-color: red;
+	color: black;
+	border-radius: 4px;
+}
+#ce
+{
+	width: 110px;
+	height: 50px;
+	border-color: black;
+	border-radius: 4px;
+	font-size: 30px;
+}
+#equal
+{
+	width: 110px;
+	height: 50px;
+	border-color: black;
+	border-radius: 4px;
+	font-size: 30px;
+}
+td
+{
+	border: 1px solid black;
+	align-content: center;
+	border-collapse: collapse;
+	text-align: center;
+	
+}
+input, button
+{
+	width: 60px;
+	height: 40px;
+	border-radius: 4px;
+	font-size: 20px;
+	/*align-content: center;border-collapse: collapse;
+	text-align: center;*/
+
+}
+input, button:hover
+{
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
