@@ -1,0 +1,103 @@
+body {
+ background-color:#f5f5f5
+}
+h2 {
+ font-family:/* Roman */ -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto;
+ font-size:20px;
+ line-height:28px;
+ font-weight:400;
+ color:rgba(0,0,0,0.9)
+}
+.pro
+{
+	font-size: 20px;
+	line-height: 34px;
+	color: #fff;
+	display: inline-block;
+
+letter-spacing: .2em;
+
+color: rgba(0,0,0,0.9);
+
+white-space: nowrap;
+font-weight: 600;
+
+font-family: inherit;
+
+height: 40px;
+
+line-height: 40px;
+
+overflow: hidden;
+
+outline-width: 2px;
+
+padding: 0 24px;
+
+position: relative;
+
+text-align: center;
+}
+#sign
+{
+	background-color: #0073b1;
+
+border: 0;
+
+border-radius: 2px;
+
+-webkit-box-sizing: border-box;
+
+box-sizing: border-box;
+
+color: #fff;
+
+cursor: pointer;
+
+display: inline-block;
+
+font-size: 1.6rem;
+}
+#headi
+{
+	background-color: #2D414A;
+}
+#headdiv 
+{
+	background-color: #2D414A;
+}
+#logo
+{
+
+}
+#nav
+{
+	background-color: #223137;
+}
+#pop
+{
+	text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #223137;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    /*text-decoration: none;*/
+}
+
+li a:hover {
+    background-color: #111111;
+    }

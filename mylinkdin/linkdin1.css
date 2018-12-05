@@ -1,0 +1,617 @@
+body{
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+.head
+{
+	height: 390px;
+	width: absolute;
+	background-color: #2D414A;
+	margin-left: -8px;
+	margin-right: -20px;
+	margin-top: -17px;
+	box-sizing: border-box;
+}
+.nav
+{
+	height: 51px;
+	margin: -20px;
+	width: absolute;
+	background-color: #223137;
+}
+.mi {
+    float: left;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #223137;
+}
+.nov
+{
+	margin-left: 200px;
+}
+.mi a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Segoe UI Emoji;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.mi a:hover 
+{
+    background-color: none;
+    text-decoration: underline;
+}
+.prof
+{
+	text-decoration: none;
+	float: left;
+	padding-bottom: 50px;
+	margin-top: -15px;
+}
+.prof:hover
+{
+	cursor: pointer;
+}
+.pop
+{
+	 display: block;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    font-family: Segoe UI Emoji;
+    font-size: 14px;
+    margin-right: 20px;
+    border-right: 1px solid #626262;
+    padding-right: 15px;
+}
+.word
+{
+	font-family: Segoe UI Emoji;
+	color: white;
+	padding-top: 100px;
+}
+.word p
+{
+	color: #ffffe6;
+	font-size: 18px;
+	margin-top:-15px;
+	margin-left: 620px;
+}
+.serc
+{
+	border:0 solid black;
+	background-color: white;
+	width: 550px;
+	height: 55px;
+	border-radius: 4px;
+	margin-left: 5px;
+}
+#ser
+{
+	border:1px solid black;
+	margin-top: 8.5px;
+	margin-left: -1px;
+	border-radius: 2px;
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+}
+#get
+{
+	width: 130px;
+	height: 40px;
+	background-color: #007097;
+	border:0 solid black;
+	border-radius: 2px;
+	margin-left: 5px;
+	font-family: Segoe UI Emoji;
+	color: white;
+	font-size: 15px;
+}
+#get:hover
+{
+	background-color: #006097;
+	cursor: pointer; 
+}
+
+.icon
+{	
+	width: 100%;
+	/*border:1px solid white;*/
+	height: 50px;
+	color: white;
+	position: absolute;
+	z-index: 2;
+	top: 5px;
+
+}
+.joii
+{
+	/*width: 45%;*/
+	/*height: 50px;*/
+	float: right;
+	/*border:1px solid red;*/
+	font-family: segoe UI Emoji;
+}
+.ico
+{
+	/*width: 45%;*/
+	/*height: 50px;*/
+	/*float: left;*/
+	/*border:1px solid red;*/
+}
+#in 
+{
+	border:1px solid white;
+	background-color: white;
+	font-family: comic san MS;
+	color: #223137;
+	font-size: 35px;
+	width: 35px;
+	height: 35px;
+	margin-bottom: 5px;
+	margin-left: 40px;
+	border-bottom-right-radius: 5px;
+}
+#pro
+{
+	/*float: right;*/
+	font-family: arial;
+	letter-spacing: 4px;
+	color: white;
+	margin-left: 250px;
+	margin-top: -35px;
+	font-size: 20px;
+	/*padding-left: -10px;*/
+}
+.clearfix
+{
+	clear: both;
+}
+.joii p
+{
+	font-size: 20px;
+}
+.joii
+{
+	/*border:1px solid white;*/
+}
+.joii p:hover
+{
+	cursor: pointer;
+	color: grey;
+}
+.joii button
+{
+	width: 80px;
+	height: 30px;
+	background-color: #223137;
+	border:1px solid white; 
+	border-radius: 2px;
+	margin-right: 250px;
+	font-family: Segoe UI Emoji;
+	color: white;
+	font-size: 15px;
+	margin-left: 15px;
+}
+.joii button:hover
+{
+	cursor: pointer;
+	width: 79px;
+	height: 29px;
+	border:2px solid white;
+}
+.body
+{
+	background-color: #F5F5F5;
+	margin-left: -8px;
+	margin-right: -20px;
+	height: 100%;
+	
+}
+.cent
+{
+	width: 70%;
+	/*border:1px solid black;*/
+	margin: auto;
+	font-family: segoe UI Emoji
+	/*margin-top: -20px;*/
+}
+.mid
+{
+	box-sizing: border-box;
+	/*float: left;*/
+}
+.midi, .midian, .midib, .midic
+{
+	/*border: 1px solid black;*/
+	width: 23%;
+	height: 300px;
+	float: left;
+	margin: 10px;
+	/*box-shadow:5px black;*/
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+
+}
+.midi, .midian, .midib, .midic 
+{
+	background-color: white;
+}
+.midia
+{
+	text-decoration: none;
+	color: black;
+}
+.midia:hover
+{
+	cursor: pointer;
+	color: #2F84BF;
+}
+img
+{
+	width: 100%;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.mim
+{
+	/*margin-top: 30px;*/
+}
+.mim h4, p
+{
+	margin-left: 15px;
+}
+hr
+{
+	margin-top: 50px;
+	width: 98%;
+	color: #fff;
+}
+.ab
+{
+	clear: all;
+
+}
+.mii
+{
+	box-sizing: border-box;
+}
+.midii, .midiani, .midibi, .midici
+{
+	/*border: 1px solid black;*/
+	width: 31%;
+	height: 495px;
+	float: left;
+	margin: 12px;
+	/*box-shadow:5px black;*/
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+	background-color: white;
+
+}
+/*.midii, .midiani, .midibi, .midici h4
+{
+	background-color: white;
+}*/
+.midiai
+{
+	text-decoration: none;
+	color: black;
+}
+.midiai:hover
+{
+	cursor: pointer;
+	
+}
+.mimi
+{
+	margin-top: 30px;
+}
+.mimi h4, p
+{
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: justify;
+	font-size: 15px;
+}
+.imoi
+{
+ width: 100px;
+ height: 100px;
+ border-radius: 100px;
+ margin-left: 5%;
+}
+.midiai h3
+{
+	color: #2F84BF;
+	padding-left: 100px;
+}
+.midiai h4:hover
+{
+	color: #2F84BF;
+}
+.midiio, .midianio, .midibio, .midicio
+{
+	/*border: 1px solid black;*/
+	width: 31%;
+	height: 400px;
+	float: left;
+	margin: 12px;
+	/*box-shadow:5px black;*/
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+	background-color: white;
+
+}
+/*.midii, .midiani, .midibi, .midici h4
+{
+	background-color: white;
+}*/
+.midiai
+{
+	text-decoration: none;
+	color: black;
+}
+.midiai:hover
+{
+	cursor: pointer;
+	
+}
+.mimi
+{
+	margin-top: 30px;
+}
+.mimi h4, p
+{
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: justify;
+	font-size: 14px;
+}
+.imoo
+{
+ 	width: 100%;
+ 	height: 200px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;;
+}
+span
+{
+	font-size: 11px;
+	padding: 9px;
+}
+.fuel
+{
+	margin-top: 30px;
+}
+.midio, .midiano, .midibo, .midico
+{
+	/*border: 1px solid black;*/
+	width: 23%;
+	height: 120px;
+	float: left;
+	margin: 10px;
+	/*box-shadow:5px black;*/
+	/*border-radius: 5px;*/
+	
+
+}
+.midio, .midiano, .midibo, .midico
+{
+	/*background-color: white;*/
+}
+.mem
+{
+	width: 100%;
+}
+.midim, .midianm, .midibm, .midicm
+{
+	/*border: 1px solid black;*/
+	width: 21%;
+	/*height: 150px;*/
+	float: left;
+	/*margin: 13px;*/
+	/*box-shadow:5px black;*/
+	border-radius: 5px;
+	padding-top: 50px;
+
+}
+.midim, .midianm, .midibm, .midicm
+{
+	/*background-color: white;*/
+}
+.midm
+{
+	margin-top: 50px
+}
+.fuelm
+{
+	margin-top: 80px;
+}
+.popi
+{
+	 /*display: block;*/
+    color: black;
+    padding: 2px;
+    font-family: Segoe UI Emoji;
+    font-size: 14px;
+}
+.memi
+{
+	width: 100%;
+	margin-top: 2px;
+}
+.dothis
+{
+	background-color:#F5F5F5;
+	display: flex;
+	justify-content: center;
+}
+
+.dothis ul li{
+	list-style-type: none;
+	float: left;
+	margin-right: 30px;
+	color: #626262 ;
+	font-size: 0.9em;
+}
+.dothis ul li a:hover
+{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.mem , .memi{
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+.dothis ul
+{
+	margin: 10.5px;
+}
+#suge
+{
+	/*width: 700px;
+	border:1px solid white;*/
+}
+.logo
+{
+	margin: 20px;
+	padding-left: 100px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	color: #626262;
+}
+.mnc
+{
+	background-color: #0077B5;
+	color: white;
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	border-bottom-right-radius: 3px;
+	float: left;
+
+}
+.oil
+{
+	background-color: white;
+	width: 98%;
+	height: 120px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+	margin: auto;
+}
+.oili
+{
+	background-color: white;
+	height: 330px;
+	width: 100%;
+	margin: auto;
+	padding-left: 280px;
+	color: #626262;
+	margin-top: -70px;
+	/*box-shadow: 0 0 5px #000;*/
+	padding-bottom: 50px;
+}
+.fuelm
+{
+	margin-right: 590px;
+	padding-top: 50px;
+}
+.rem
+{
+	/*padding: 20px;*/
+}
+.lik
+{
+	margin-top: 15px;
+	/*font-size: 25px;*/
+}
+.rem ul li 
+{
+	list-style: none;
+	margin-right: 30px;
+	color: #626262 ;
+	font-size: 0.9em;
+	padding: 10px;
+	padding-left: 80px;
+}
+.rem ul li a
+{
+	color: #626262 ;
+	text-decoration: none;
+}
+.rem ul li a:hover
+{
+	text-decoration: underline;
+}
+.rom
+{
+
+}
+.rom ul li
+{
+	list-style: none;
+	margin-right: 30px;
+	color: #626262 ;
+	font-size: 0.9em;
+	padding: 10px;
+}
+.rom ul li a
+{
+	color: #626262 ;
+	text-decoration: none;
+}
+.rom ul li a:hover
+{
+	text-decoration: underline;
+}
+.mom
+{
+	width: 100%;
+	height: 400px;
+	color: #626262 ;
+	font-size: 13px;
+	/*padding-top: 30px;*/
+}
+.mom div
+{
+	float: left;
+	width: 30%;
+	margin-top: 20px;
+}
+.ram
+{
+	border-left: 1px solid #626262;
+	padding-left: 50px;
+	margin-left: -100px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+.ram a
+{
+ 	color: #324B7C;
+ 	text-decoration: none;
+}
+.ram a:hover
+{
+	text-decoration: underline;
+}
+.nov li img
+{
+	width: 15px;
+	height: 15px;
+}
+.dothis ul li a img
+{
+	width: 20px;
+	height: 20px;
+}
